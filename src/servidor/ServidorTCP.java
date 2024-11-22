@@ -92,7 +92,6 @@ public class ServidorTCP {
 			}
 			if (Integer.valueOf(respuesta[i]) == this.reintegro) {
 				reintegroCondicion = true;
-
 			}
 
 		}
