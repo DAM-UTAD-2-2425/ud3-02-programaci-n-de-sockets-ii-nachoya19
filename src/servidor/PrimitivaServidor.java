@@ -8,7 +8,7 @@ public class PrimitivaServidor {
 		String respuesta;
 		do {
 			linea = canal.leerCombinacion();
-			respuesta = canal.comprobarBoleto ();
+			respuesta = canal.comprobarBoleto();
 			canal.enviarRespuesta (respuesta);
 		} while (!linea.equals("FIN"));
 		canal.finSesion();
